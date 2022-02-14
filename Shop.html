@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sopping Cart Project</title>
+    <link rel="stylesheet" href="Shop.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left__start">
+            <h1>Panier</h1>
+        </div>
+
+        <div class="shopping">
+            <div class="shopping__item">
+                <table class="content">
+                   <tr class="headings">
+                       <th>
+                           <div class="first__cell">Article</div>
+                       </th>
+                       <th>
+                           <div class="step__back">Quantité</div>
+                       </th>
+                       <th>
+                           <div class="step__back">Prix Unitaire</div>
+                       </th>
+                       <th>
+                           <div class="step__back">Sous Total</div>
+                       </th>
+                   </tr>
+
+                   <tr class="item__view">
+                        <td class="second__row--column1">
+                            <div class="item__info">
+                                <div class="item">
+                                    <img src="img/im3.jfif" alt="">
+                                </div>
+                                <div class="select">
+                                    <div>yellow<br>T-shirt</div>
+                                    <div>
+                                        <button class="removing__button">Supprimer</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+                        <td class="second__row--column2">
+                            <div class="control">
+                                <div>
+                                    <button class="minus__button"><span> - </span></button>
+                                </div>
+                                <div class="amount"> 2 </div>
+                                <div>
+                                    <button class="plus__button"><span> + </span></button>
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="money">25000</div>
+                        </td>
+                        <td>
+                            <div class="money_1">50000</div>
+                        </td>
+                    </tr>
+
+                    <tr class="third__row">
+                        <td>
+                            <div class="first__try">
+                                <div class="item__info">
+                                    <div class="item">
+                                        <img src="img/im5.jfif" alt="">
+                                    </div>
+                                    <div class="select">
+                                        <div>blue<br>T-shirt</div>
+                                        <div>
+                                            <button class="removing__button">Supprimer</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+                        <td class="second__row--column2">
+                            <div class="control">
+                                <div>
+                                    <button class="minus__button" id="decrement" onclick="decreaseQuantity">
+                                </div>
+                                <div class="amount" id="quantity"> 1  </div>
+                                <div>
+                                    <button class="plus__button" id="increment" onclick="increaseQuantity">
+                                </div>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="money">3000</div>
+                        </td>
+                        <td>
+                            <div class="money_1">12000</div>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="fourth__row--column">
+                            <input type="text" placeholder="Nom de l'article>
+                        </td>
+                        
+                        <td>
+                            <div class="money_2">3000</div>
+                        </td>
+
+                        <td></td>
+
+                        <td>
+                            <button class="adding__button">Ajouter </button>
+                        </td>
+                    </tr>
+                </table>
+            </div> 
+        </div>
+
+        <div class="center">
+            <h3>Total: <span>62000 Fcfa</span></h3>
+        </div>
+    </div>
+
+    <script src="Shop.js"></script>
+</body>
+</html>

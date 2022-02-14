@@ -1,0 +1,157 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 18px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(26, 24, 24);
+}
+
+.container{
+    border: 2px solid;
+    background-color: blue;
+}
+
+.left__start{
+    color: white;
+    font-size: 15px;
+    margin: 15px 0 0 48px;
+    padding-bottom: 5px;
+}
+
+.shopping{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 2px solid;
+    background-color: white;
+    margin: 10px 50px;
+}
+
+.shopping__item{
+    margin-top: 1rem;
+}
+
+.step__back{
+    margin: 0 3rem;
+}
+
+.first__cell{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 1rem;
+}
+
+.item__info{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 1rem 1rem 0 3rem;
+}
+
+.item img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.removing__button{
+    color: red;
+    font-weight: bold;
+    border: none;
+    margin-top: 1rem;
+}
+
+.control{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 3rem 0 3rem;
+}
+
+.minus__button, .plus__button{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: gray;
+}
+
+.minus__button{
+    margin-right: 1rem;
+}
+
+.plus__button{
+    margin-left: 1rem;
+}
+
+span{
+    color: white;
+    font-size: 20px;
+}
+
+.money{
+    margin: 1.5rem 4rem 0 4rem;
+}
+
+.money_1{
+    color: rgb(99, 181, 228);
+    margin: 2rem 2rem 0 2rem;
+    padding-left: 2rem;
+}
+
+.money_2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0 2rem 4rem;
+    width: 90px;
+    height: 30px;
+    border: 1px solid grey;
+}
+
+.amount{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 30px;
+    border: 1px solid grey;
+}
+
+input{
+    margin: 0 0 0 1rem;
+    border: 2px solid grey;
+    border-radius: 5px;
+    height: 30px;
+    width: 180px;
+}
+
+.adding__button{
+    height: 25px;
+    width: 100px;
+    margin: 0 2rem;
+    border-radius: 10px;
+    background-color: rgb(99, 181, 228);
+    border: 2px solid grey;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 15px 0;
+}
+
+.center span{
+    color: blue;
+}
